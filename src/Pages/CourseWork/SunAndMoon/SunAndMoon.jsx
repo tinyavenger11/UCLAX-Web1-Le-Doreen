@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import {useState} from "react";
+import { useState } from "react";
 
 import sunImg from "./images/sun.png";
 import moonImg from "./images/moon.png";
 
 const SunAndMoon = () => {
+    // JS Layer
     const [imgSrc, imgSrcUpdate] = useState(moonImg);
 
     const changeToSun = () => {
@@ -14,7 +15,7 @@ const SunAndMoon = () => {
         imgSrcUpdate(moonImg);
     };
 
-     // HTML Layer
+    // HTML Layer
     return (
         <SunAndMoonStyled>
             <h2>Sun And Moon</h2>
