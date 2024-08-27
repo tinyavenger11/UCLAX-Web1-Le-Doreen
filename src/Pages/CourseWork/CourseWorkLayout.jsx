@@ -16,6 +16,9 @@ const CourseWorkLayout = () => {
                         Sun And Moon
                     </NavLink>
                     <NavLink to="/course-work/responsive">Responsive</NavLink>
+                    <NavLink to="/course-work/javascript-fundamentals">
+                        Fundamentals
+                    </NavLink>
                 </nav>
                 <Outlet />
             </Inset>

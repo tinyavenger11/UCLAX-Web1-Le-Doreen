@@ -13,7 +13,7 @@ const StaffMember = ({ member }) => {
 
             <div className="bottom">
                 <p>
-                    <b>Year Started:</b> {yearStarted}
+                    <b>Project Type:</b> {yearStarted}
                 </p>
 
                 <Accolades accolades={accolades} />

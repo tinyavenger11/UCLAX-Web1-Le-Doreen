@@ -8,8 +8,8 @@ const MainMenu = ({ onClick }) => {
             <NavLink to={"/"} end>
                 Home
             </NavLink>
-            <NavLink to={"/staff"}>Staff</NavLink>
-            <NavLink to={"/contact"}>Contact</NavLink>
+            <NavLink to={"/staff"}>Design</NavLink>
+            <NavLink to={"/contact"}>Photo</NavLink>
             <NavLink to={"/course-work"}>Course</NavLink>
         </MainMenuStyled>
     );
