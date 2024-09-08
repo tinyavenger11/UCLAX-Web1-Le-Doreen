@@ -4,19 +4,21 @@ import PropTypes from "prop-types";
 import Accolades from "./Accolades/Accolades";
 
 const StaffMember = ({ member }) => {
-    const { name, image, yearStarted, accolades } = member;
+    const { name, image, yearStarted } = member;
 
     return (
         <StaffMemberStyled>
             <img src={image} alt={name} />
-            <h3>{name}</h3>
+            <h6>{name}</h6>
 
             <div className="bottom">
                 <p>
-                    <b>Project Type:</b> {yearStarted}
+                    <br></br>
+                    <b>Project Type:</b> <br></br>
+                    {yearStarted}
                 </p>
 
-                <Accolades accolades={accolades} />
+                {/* <Accolades accolades={accolades} /> */}
             </div>
         </StaffMemberStyled>
     );
@@ -30,7 +32,8 @@ StaffMember.propTypes = {
 };
 
 const StaffMemberStyled = styled.div`
-    background-color: #eeeeee;
+    background-color: #efefef;
+    color: black;
 
     img {
         width: 100%;
@@ -39,11 +42,14 @@ const StaffMemberStyled = styled.div`
 
     .bottom {
         padding: 20px;
+        text-align: center;
+        color: #2064b2;
     }
 
-    h3 {
-        color: white;
-        background-color: #014444;
+    h6 {
+        color: #5c5b5c;
+        background-color: #cfced3;
+        text-align: center;
         padding: 5px 10px;
         margin: 0px;
     }

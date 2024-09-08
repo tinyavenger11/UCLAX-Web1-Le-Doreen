@@ -33,7 +33,7 @@ const SmallStyled = styled.div`
     justify-content: center;
 
     .SiteLogo {
-        height: 300px;
+        height: 100px;
         display: flex;
         align-items: center;
         padding: 20px;
@@ -49,7 +49,7 @@ const SmallStyled = styled.div`
 
         z-index: 100;
 
-        background-color: #034444;
+        background-color: #2064b2;
 
         a {
             display: block;
@@ -63,7 +63,7 @@ const SmallStyled = styled.div`
             &:hover,
             &:active,
             &:focus {
-                background-color: #002a2a;
+                background-color: #011744;
             }
         }
     }

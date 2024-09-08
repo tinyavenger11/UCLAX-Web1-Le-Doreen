@@ -11,7 +11,7 @@ import Slide from "./Slide";
 const Slideshow = () => {
     return (
         <SlideshowStyled>
-            <Carousel infiniteLoop={true}>
+            <Carousel infiniteLoop={true} showThumbs={false}>
                 {slidesData.map((slide) => {
                     return <Slide key={slide.id} slide={slide} />;
                 })}

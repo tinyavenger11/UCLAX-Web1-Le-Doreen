@@ -57,7 +57,7 @@ const Form = ({ getSubmissions }) => {
             />
             <TextArea
                 id="message"
-                labelText="Message"
+                labelText="Message:"
                 onChange={inputMessageOnChange}
                 value={inputMessage}
             />
@@ -81,6 +81,7 @@ const FormStyled = styled.form`
 
     label {
         font-weight: bold;
+        color: #2064b2;
         display: block;
         margin-bottom: 5px;
     }
@@ -90,16 +91,17 @@ const FormStyled = styled.form`
         font-size: 20px;
         padding: 10px;
         width: 100%;
-        background-color: #eee;
-        border: solid 1px #999;
+        background-color: #dbe9fc;
+        border: solid 1px #2064b2;
 
         &:focus {
             background-color: #fff;
+            border: solid 2px #2064b2;
         }
     }
 
     button {
-        background-color: teal;
+        background-color: #2064b2;
         padding: 10px 5px;
         color: #fff;
         width: 150px;
@@ -110,7 +112,7 @@ const FormStyled = styled.form`
 
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #011744;
         }
         &:active {
             background-color: #002020;
