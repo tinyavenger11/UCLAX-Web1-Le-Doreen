@@ -28,7 +28,7 @@ const MyRoutes = () => {
                 <Routes>
                     <Route element={<PagesLayout />}>
                         <Route element={<Home />} path="" />
-                        <Route element={<Staff />} path="portfolio" />
+                        <Route element={<Staff />} path="gallery" />
                         <Route element={<Contact />} path="contact" />
 
                         <Route
