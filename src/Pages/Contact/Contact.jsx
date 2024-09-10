@@ -24,7 +24,7 @@ const Contact = () => {
             <Inset>
                 <h1>Contact</h1>
                 <h6>
-                    Thanks for checking out my portfolio! I'd love to hear from
+                    Thanks for checking out my website! I'd love to hear from
                     you. If you are interested in hiring me for a project or,
                     you know, just telling me how awesome my work is, feel free
                     to drop me a line!
