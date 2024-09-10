@@ -1,14 +1,20 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import ModalImage from "react-modal-image";
 
 import Accolades from "./Accolades/Accolades";
 
 const StaffMember = ({ member }) => {
-    const { name, image, yearStarted } = member;
+    const { name, imageSmall, imageLarge, yearStarted } = member;
 
     return (
         <StaffMemberStyled>
-            <img src={image} alt={name} />
+            {/* <img src={image} alt={name} /> */}
+            <ModalImage
+                small={imageSmall}
+                medium={imageLarge}
+                // alt="Hello World!"
+            />
             <h6>{name}</h6>
 
             <div className="bottom">
@@ -39,6 +45,9 @@ const StaffMemberStyled = styled.div`
         width: 100%;
         display: block;
     }
+    img.__react_modal_image__medium_img {
+        max-height: none;
+    }
 
     .bottom {
         padding: 20px;
@@ -47,7 +56,7 @@ const StaffMemberStyled = styled.div`
     }
 
     h6 {
-        color: #5c5b5c;
+        color: #011744;
         background-color: #cfced3;
         text-align: center;
         padding: 5px 10px;

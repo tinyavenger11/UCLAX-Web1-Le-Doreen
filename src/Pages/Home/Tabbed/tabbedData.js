@@ -19,6 +19,6 @@ export const tabbedData = [
         id: 3,
         image: image3,
         title: "Photography",
-        text: "<p>Travel photography from Europe, Asia and Australia, as well as dramatic black-and-whites, styled in high contrast to emulate the look of film noir movies.</p>",
+        text: "<p>Dramatic black-and-whites, styled in high contrast to emulate the look of film noir movies.</p>",
     },
 ];

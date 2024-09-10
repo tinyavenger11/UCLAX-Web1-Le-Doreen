@@ -36,7 +36,7 @@ const ResponsiveDesignStyled = styled.div`
         font-size: 50px;
         text-align: center;
         color: white;
-        background-color: teal;
+        background-color: #88befc;
         margin: 10px;
     }
     .box2 {
@@ -48,12 +48,12 @@ const ResponsiveDesignStyled = styled.div`
 
     @media ${breakpoints.isMediumAndUp} {
         .box {
-            background-color: indigo;
+            background-color: #4297f8;
         }
     }
     @media ${breakpoints.isLargeAndUp} {
         .box {
-            background-color: green;
+            background-color: #2064b2;
         }
     }
 `;
