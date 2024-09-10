@@ -47,6 +47,7 @@ const StaffMemberStyled = styled.div`
     }
     img.__react_modal_image__medium_img {
         max-height: none;
+        max-width: 75%;
     }
 
     .bottom {
