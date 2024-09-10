@@ -898,6 +898,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }
     img.__react_modal_image__medium_img {
         max-height: none;
+        max-width: 75%;
     }
 
     .bottom {
